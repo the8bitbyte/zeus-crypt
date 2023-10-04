@@ -13,3 +13,5 @@ and all password are recomened to be over 5 letters or it could cause problems
 this works on all files other then folders (i think)
 
 warning: if you forget your password there is no getting your files back lol
+
+also program.cs is not required to run the .exe file but i included it so its open source
