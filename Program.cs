@@ -44,13 +44,13 @@ class Program
     static void Encryptiptions()
     {
         Console.WriteLine("Please enter the path of the file you want to encrypt");
-        string EncInput = Console.ReadLine().Trim('"'); // Remove leading and trailing quotes
+        string EncInput = Console.ReadLine().Trim('"');
         Console.WriteLine("Please enter the output path of the file");
-        string EncOutput = Console.ReadLine().Trim('"'); // Remove leading and trailing quotes
+        string EncOutput = Console.ReadLine().Trim('"');
         Console.WriteLine("Please enter the password for encryption");
         string EncPassword = Console.ReadLine();
 
-        // Ensure the key size is appropriate for AES (128, 192, or 256 bits)
+        
         byte[] enckeyBytes = AdjustKeySize(Encoding.UTF8.GetBytes(EncPassword), 256 / 8);
 
         Console.WriteLine("Encrypting file...");
@@ -70,7 +70,7 @@ class Program
         Console.WriteLine("Please enter the password for decryption");
         string DncPassword = Console.ReadLine();
 
-        // Ensure the key size is appropriate for AES (128, 192, or 256 bits)
+        
         byte[] dnckeyBytes = AdjustKeySize(Encoding.UTF8.GetBytes(DncPassword), 256 / 8);
 
         Console.WriteLine("Decrypting file...");
