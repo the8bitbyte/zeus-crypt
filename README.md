@@ -15,3 +15,5 @@ this works on all files other then folders (i think)
 warning: if you forget your password there is no getting your files back lol
 
 also program.cs is not required to run the .exe file but i included it so its open source
+
+if you are having trouble running it on windows 10 DM me (the8bit_byte10101) or if you have any feedback you can do [this](https://forms.gle/fVSKazuVCtA4TzFE7) form
