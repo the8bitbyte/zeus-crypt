@@ -1,7 +1,7 @@
 # zeus-crypt
 zues-crypt is my open source encryption console app written is C# 
 
-to download click "code" and click "download as zip" and run the .exe file
+to download download the ZIP file and run setup.exe
 
 how to use:
 to encrypt a file copy the file path (right click and click "copy as path") and paste it in once it asks for the unput file
